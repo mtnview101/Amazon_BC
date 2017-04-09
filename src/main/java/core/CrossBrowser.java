@@ -20,8 +20,8 @@ public class CrossBrowser {
        static WebDriver driver;
 
 public static void main(String[] args) throws IOException {
-				//String in_browser = System.getProperty("browser");
-				String in_browser = "Edge"; // Firefox or Chrome or Safari or IE or Edge
+				  //String in_browser = System.getProperty("browser");
+				  String in_browser = "Edge"; // Firefox or Chrome or Safari or IE or Edge
 	              setWebDriver(in_browser);
 	              String url = "http://alex.academy/ua";
 	
